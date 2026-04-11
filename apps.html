@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Apps by Payel Chakravarty | Chakravarty House</title>
+    <meta name="description" content="Browse all Android apps developed by Payel Chakravarty. Navigation, finance, entertainment, and productivity applications for Android devices.">
+    <meta name="keywords" content="Android apps, mobile apps, navigation, finance, entertainment, productivity, Payel Chakravarty">
+    <meta name="author" content="Payel Chakravarty">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Android Apps by Payel Chakravarty">
+    <meta property="og:description" content="Browse all Android apps developed by Payel Chakravarty across various categories.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://chakravartyhouse.github.io/apps.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>CH</text></svg>">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+    
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Chakravarty House</div>
+                
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="apps.html" class="nav-link active">Apps</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="privacy-policy.html" class="nav-link">Privacy</a>
+                    <button class="theme-toggle" aria-label="Toggle theme">Dark Mode</button>
+                </nav>
+                
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="section">
+            <div class="container">
+                <div class="text-center mb-xl">
+                    <h1 style="font-family: var(--font-heading); font-size: var(--text-4xl); margin-bottom: var(--space-md);">All Android Apps</h1>
+                    <p style="color: var(--color-text-secondary); max-width: 600px; margin: 0 auto;">Explore my complete collection of Android applications designed to enhance your digital experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="section" style="padding-top: 0;">
+            <div class="container">
+                <div class="filter-container">
+                    <button class="filter-btn active" data-category="all">All Apps</button>
+                    <button class="filter-btn" data-category="navigation">Navigation</button>
+                    <button class="filter-btn" data-category="finance">Finance</button>
+                    <button class="filter-btn" data-category="fun">Fun</button>
+                    <button class="filter-btn" data-category="productivity">Productivity</button>
+                    <button class="filter-btn" data-category="coming-soon">Coming Soon</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Apps Grid -->
+        <section class="section" style="padding-top: 0;">
+            <div class="container">
+                <div class="grid grid-cols-3">
+                    
+                    <!-- 
+                    ========================================================================
+                    HOW TO ADD A NEW APP TO THIS PAGE:
+                    ========================================================================
+                    
+                    1. Copy the entire app-card div block below (from [App Card] to [End App Card])
+                    2. Replace the placeholder content with your app details:
+                       - Update data-category attribute to match your app category
+                       - Change the app-icon letter/initial
+                       - Update app-name with your app title
+                       - Write a compelling app-description
+                       - Update app-tags with relevant categories
+                       - Set the app-detail-card id to a unique identifier
+                       - Update the app-detail-icon and content accordingly
+                    3. Add a new filter button in the filter-container section if needed
+                    4. Update the coming-soon count in the last card
+                    5. Test the filtering functionality works correctly
+                    
+                    Categories available: navigation, finance, fun, productivity, coming-soon
+                    ========================================================================
+                    -->
+
+                    <!-- Compass & Altimeter Pro -->
+                    <div class="app-card" data-category="navigation">
+                        <div class="app-banner">
+                            <div class="app-icon">C</div>
+                        </div>
+                        <div class="app-body">
+                            <h3 class="app-name">Compass & Altimeter Pro</h3>
+                            <p class="app-description">Compass, altimeter, and advanced navigation features for outdoor enthusiasts</p>
+                            <div class="app-tags">
+                                <span class="app-tag">Navigation</span>
+                                <span class="app-tag">Outdoor</span>
+                                <span class="app-tag">Tools</span>
+                            </div>
+                            <div class="app-actions">
+                                <a href="apps/compass-altimeter-pro.html" class="btn btn-primary">View Details</a>
+                                <a href="privacy/compass-altimeter-pro.html" class="btn btn-secondary">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Crush Calculator -->
+                    <div class="app-card" data-category="fun">
+                        <div class="app-banner">
+                            <div class="app-icon">C</div>
+                        </div>
+                        <div class="app-body">
+                            <h3 class="app-name">Crush Calculator</h3>
+                            <p class="app-description">FLAMES love match tester! Discover your relationship fate in seconds with this fun compatibility game.</p>
+                            <div class="app-tags">
+                                <span class="app-tag">Entertainment</span>
+                                <span class="app-tag">Social</span>
+                                <span class="app-tag">Fun</span>
+                            </div>
+                            <div class="app-actions">
+                                <a href="apps/crush-calculator.html" class="btn btn-primary">View Details</a>
+                                <a href="privacy/crush-calculator.html" class="btn btn-secondary">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FinPulse Financial Calculator -->
+                    <div class="app-card" data-category="finance">
+                        <div class="app-banner">
+                            <div class="app-icon">F</div>
+                        </div>
+                        <div class="app-body">
+                            <h3 class="app-name">FinPulse Financial Calculator</h3>
+                            <p class="app-description">EMI, GST, SIP, FD, RD, tax & loan calculators for smart financial planning</p>
+                            <div class="app-tags">
+                                <span class="app-tag">Finance</span>
+                                <span class="app-tag">Productivity</span>
+                                <span class="app-tag">Tools</span>
+                            </div>
+                            <div class="app-actions">
+                                <a href="apps/finpulse-financial-calculator.html" class="btn btn-primary">View Details</a>
+                                <a href="privacy/finpulse-financial-calculator.html" class="btn btn-secondary">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Coming Soon Card -->
+                    <div class="app-card" data-category="coming-soon">
+                        <div class="app-banner">
+                            <div class="app-icon">?</div>
+                        </div>
+                        <div class="app-body">
+                            <h3 class="app-name">100+ More Apps</h3>
+                            <p class="app-description">Exciting new applications in development across various categories. Stay tuned for innovative solutions coming soon!</p>
+                            <div class="app-tags">
+                                <span class="app-tag">Coming Soon</span>
+                                <span class="app-tag">In Development</span>
+                            </div>
+                            <div class="app-actions">
+                                <button class="btn btn-secondary" disabled>Coming Soon</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- App Details Section -->
+        <section class="section" style="background-color: var(--color-surface-elevated);">
+            <div class="container">
+                <div class="text-center mb-xl">
+                    <h2 style="font-family: var(--font-heading); font-size: var(--text-3xl); margin-bottom: var(--space-md);">App Details</h2>
+                    <p style="color: var(--color-text-secondary);">Learn more about each application's features and capabilities.</p>
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: var(--space-xl);">
+
+                    <!-- 
+                    ========================================================================
+                    HOW TO ADD APP DETAILS:
+                    ========================================================================
+                    
+                    1. Copy the entire app-detail-card div block below
+                    2. Set a unique id that matches the href in the app card above
+                    3. Update the app-detail-icon with your app's initial/letter
+                    4. Update the app-detail-content with your app information:
+                       - Change the h3 title
+                       - Write detailed description
+                       - Update category and release date
+                    5. Ensure the id matches the href from the corresponding app card above
+                    ========================================================================
+                    -->
+
+                    <!-- Compass & Altimeter Pro Details -->
+                    <div class="app-detail-card" id="compass-altimeter-pro">
+                        <div class="app-detail-icon">C</div>
+                        <div class="app-detail-content">
+                            <h3>Compass & Altimeter Pro</h3>
+                            <p><strong>Bundle ID: com.Compass.pro.compass_and_altimeter_pro</strong></p>
+                            <p><strong>Version: 1.0.0 | Supports modern Android devices</strong></p>
+                            <p>Compass & Altimeter Pro is your essential navigation companion, offering precise orientation and altitude measurements in one comprehensive package.</p>
+                            
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Accurate Compass - Real-time heading in degrees and cardinal directions with magnetic north indication</li>
+                                <li>Precise Altimeter - Current altitude measurements in both meters and feet using GPS</li>
+                                <li>Field Strength Indicator - Monitor compass accuracy with magnetic field strength display</li>
+                                <li>Weather Information - Access real-time weather data for your location with air pressure</li>
+                                <li>Sunrise/Sunset Times - View daily solar information for your area</li>
+                                <li>Custom Themes - Personalize the app's appearance with different color schemes</li>
+                                <li>Advanced Settings - Fine-tune compass and altimeter configurations</li>
+                            </ul>
+                            
+                            <h4>Step-by-Step Usage Instructions:</h4>
+                            <ol>
+                                <li>Launch the app and grant location permissions when prompted</li>
+                                <li>Use the side menu to navigate between different tools</li>
+                                <li>Compass: Hold your device flat to get accurate heading readings</li>
+                                <li>Altimeter: Wait for GPS signal to get precise elevation data</li>
+                                <li>Access additional features through the navigation drawer</li>
+                                <li>Use the settings menu to customize units and display preferences</li>
+                            </ol>
+                            
+                            <h4>Technical Details:</h4>
+                            <ul>
+                                <li>Requires location permission for compass heading and GPS altitude calculations</li>
+                                <li>Optimized for outdoor use with clear sky visibility for best GPS accuracy</li>
+                                <li>Includes compass calibration feature with easy-to-follow instructions</li>
+                                <li>Regular updates and improvements ensure the best possible user experience</li>
+                            </ul>
+                            
+                            <h4>Permissions Required:</h4>
+                            <ul>
+                                <li>Location Permission - Required for compass heading and GPS altitude</li>
+                                <li>GPS Access - Needed for accurate position and elevation data</li>
+                                <li>Internet Connection - Required for weather data and some features</li>
+                                <li>Modern Android Device - Android 5.0+ recommended for best performance</li>
+                            </ul>
+                            
+                            <h4>Pro Features:</h4>
+                            <ul>
+                                <li>Theme customization options</li>
+                                <li>Weather information integration</li>
+                                <li>Sunrise/Sunset time calculations</li>
+                                <li>Advanced configuration settings</li>
+                            </ul>
+                            
+                            <h4>Limitations:</h4>
+                            <ul>
+                                <li>Requires location permissions for core functionality</li>
+                                <li>Compass accuracy depends on device calibration</li>
+                                <li>Altimeter readings require GPS signal</li>
+                                <li>Some advanced features are restricted to Pro version</li>
+                            </ul>
+                            
+                            <p>The app is designed for hikers, outdoor enthusiasts, and anyone needing reliable navigation tools.</p>
+                            
+                            <div class="app-detail-meta">
+                                <span><strong>Category:</strong> Navigation</span>
+                                <span><strong>Released:</strong> 2025</span>
+                                <span><strong>Target SDK:</strong> Android 14 (API 34)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Crush Calculator Details -->
+                    <div class="app-detail-card" id="crush-calculator">
+                        <div class="app-detail-icon">C</div>
+                        <div class="app-detail-content">
+                            <h3>Crush Calculator</h3>
+                            <p><strong>Discover Your Love Vibes in Seconds!</strong></p>
+                            <p>Is your crush thinking about you too? Are you meant to be lovers... or just friends? Introducing the Crush Calculator - a fun, flirty, and addictive app that uses your names to reveal your relationship fate!</p>
+                            
+                            <h4>What is Crush Calculator?</h4>
+                            <p>Crush Calculator is a light-hearted relationship game inspired by the popular FLAMES method:</p>
+                            <p><strong>F</strong>riends | <strong>L</strong>overs | <strong>A</strong>ffection | <strong>M</strong>arriage | <strong>E</strong>nemies | <strong>S</strong>iblings</p>
+                            <p>Just enter two names, hit calculate, and see what destiny has in store for you. It's that easy - and way too much fun!</p>
+                            
+                            <h4>Features You'll Love:</h4>
+                            <ul>
+                                <li>Instant Results - No waiting. Just type and tap</li>
+                                <li>Fun & Easy to Use - Designed for all ages, no sign-up required</li>
+                                <li>Perfect for Parties or Solo Play - A great icebreaker or boredom buster</li>
+                                <li>Modern Twist on a Classic Game - Revamped for 2025 with fresh animations and sleek design</li>
+                                <li>Shareable Fun - Take screenshots and share hilarious or cute results with your friends on social media!</li>
+                            </ul>
+                            
+                            <h4>Who Should Use This App?</h4>
+                            <ul>
+                                <li>Teens and Students testing romantic waters</li>
+                                <li>Best Friends just looking for a laugh</li>
+                                <li>Couples wanting a silly game for date night</li>
+                                <li>Single dreamers wondering about their celebrity crush</li>
+                                <li>Anyone who believes in love, destiny, or just wants to have fun!</li>
+                            </ul>
+                            
+                            <h4>Functional Features:</h4>
+                            <ul>
+                                <li>FLAMES Compatibility Calculator - Uses the classic FLAMES game logic to determine the relationship type based on two names</li>
+                                <li>Instant Result Generator - Quickly calculates and displays relationship results without any wait time</li>
+                                <li>Unlimited Name Tests - Users can test as many name combinations as they want, without any usage limits</li>
+                                <li>No Account Required - No sign-up, login, or email needed to use the app</li>
+                                <li>Offline Mode Support - The main functionality (FLAMES calculation) works without an internet connection</li>
+                                <li>Lightweight Design - The app is small in size and runs smoothly on most Android devices</li>
+                                <li>Ad-Supported (via Appodeal) - Monetized with non-intrusive ads using the Appodeal SDK</li>
+                            </ul>
+                            
+                            <h4>Experience Features:</h4>
+                            <ul>
+                                <li>Simple & Intuitive UI - Clean interface with easy name input fields and one-tap results</li>
+                                <li>Fun & Playful Vibe - Entertaining and humorous outcomes that users love to share with friends</li>
+                                <li>Teen & Family-Friendly - No inappropriate content; safe for young audiences</li>
+                                <li>Zero Data Collection by App - Privacy-focused: The app itself collects no personal information</li>
+                                <li>Social Media Ready - Users can screenshot and share their results on platforms like Instagram, TikTok, WhatsApp, or Snapchat</li>
+                                <li>Perfect for Parties & Casual Fun - Great icebreaker or entertainment app for groups, friends, or couples</li>
+                            </ul>
+                            
+                            <h4>Disclaimer:</h4>
+                            <p>Crush Calculator is not a scientific tool or a real love predictor. It's a fun, fictional game meant for enjoyment only. All results are randomly generated based on name patterns and have no real-life implications. So relax, have fun, and take the results with a smile!</p>
+                            
+                            <div class="app-detail-meta">
+                                <span><strong>Category:</strong> Entertainment</span>
+                                <span><strong>Released:</strong> 2025</span>
+                                <span><strong>Target Audience:</strong> Teens & Adults</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FinPulse Financial Calculator Details -->
+                    <div class="app-detail-card" id="finpulse-financial-calculator">
+                        <div class="app-detail-icon">F</div>
+                        <div class="app-detail-content">
+                            <h3>FinPulse Financial Calculator</h3>
+                            <p><strong>Version: 1.0.0 | Version Code: 1 | Release Type: Production | Build Number: +1</strong></p>
+                            <p>FinPulse Financial Calculator is your comprehensive financial planning companion, offering 29 powerful calculators across 4 major categories: Loans, Savings, Tax, and Others. Whether you're planning to buy a home, invest for retirement, or calculate taxes, FinPulse has you covered.</p>
+                            
+                            <h4>LOANS CATEGORY (8 calculators):</h4>
+                            <ul>
+                                <li>Home Loan EMI - Calculate monthly installments with interest breakdown</li>
+                                <li>Car Loan EMI - Auto loan planning with total cost analysis</li>
+                                <li>Personal Loan EMI - Quick personal loan calculations</li>
+                                <li>Loan Comparison - Compare up to 3 bank offers side-by-side</li>
+                                <li>Amortization Schedule - Detailed month-by-month payment breakdown</li>
+                                <li>Prepayment Calculator - Calculate savings on early loan repayment</li>
+                                <li>Interest Rate Converter - Convert between annual, monthly, and daily rates</li>
+                                <li>APR Calculator - Find the true cost of borrowing</li>
+                            </ul>
+                            
+                            <h4>SAVINGS CATEGORY (11 calculators):</h4>
+                            <ul>
+                                <li>Fixed Deposit (TDR) - Interest payout FD calculations</li>
+                                <li>Fixed Deposit (STDR) - Cumulative FD with compound interest</li>
+                                <li>Recurring Deposit - Monthly RD returns calculator</li>
+                                <li>SIP Returns - Systematic Investment Plan with step-up option</li>
+                                <li>SIP vs Lump Sum - Compare investment strategies</li>
+                                <li>SWP Calculator - Systematic Withdrawal Plan planning</li>
+                                <li>PPF Calculator - 15-year tax-free investment planning</li>
+                                <li>Sukanya Samriddhi - SSY calculator for your daughter's future</li>
+                                <li>NPS Returns - Pension corpus planning calculator</li>
+                                <li>EPF Interest - Employee Provident Fund balance projection</li>
+                                <li>CAGR/XIRR - Investment return rate analysis</li>
+                            </ul>
+                            
+                            <h4>TAX CATEGORY (5 calculators):</h4>
+                            <ul>
+                                <li>GST Calculator - CGST, SGST, IGST calculations</li>
+                                <li>Income Tax - Compare new vs old tax regimes</li>
+                                <li>Capital Gains Tax - Calculate tax on equity, property, gold</li>
+                                <li>Business Profit Margin - Gross and net margin analysis</li>
+                                <li>Invoice Generator - Create GST invoices with PDF export</li>
+                            </ul>
+                            
+                            <h4>OTHERS CATEGORY (5 calculators):</h4>
+                            <ul>
+                                <li>Gold Price - Live gold rate calculator with purity options</li>
+                                <li>Rent vs Buy - Break-even analysis for housing decisions</li>
+                                <li>Retirement Corpus - Calculate how much you need to retire</li>
+                                <li>Credit Card Payoff - Escape the debt trap with strategic planning</li>
+                                <li>Inflation Adjusted Returns - Real vs nominal investment returns</li>
+                            </ul>
+                            
+                            <h4>KEY FEATURES:</h4>
+                            <ul>
+                                <li>29 Professional Financial Calculators in One App</li>
+                                <li>PDF Export with Detailed Reports (Ad-supported)</li>
+                                <li>Save & Bookmark Calculations for Future Reference</li>
+                                <li>Share Results with Friends and Family</li>
+                                <li>Dark/Light/System Theme Support</li>
+                                <li>Search Functionality to Quickly Find Calculators</li>
+                                <li>Calculation History Tracking</li>
+                                <li>Interactive Charts and Visualizations</li>
+                                <li>Step-by-Step Calculation Breakdowns</li>
+                                <li>Professional Amortization Schedules</li>
+                            </ul>
+                            
+                            <h4>TECHNICAL SPECIFICATIONS:</h4>
+                            <ul>
+                                <li>Target SDK: Android 14 (API 34)</li>
+                                <li>Minimum SDK: Android 5.0 (API 21)</li>
+                                <li>App Size: 44MB</li>
+                                <li>Architecture: ARM64, ARM32, x86_64, x86</li>
+                                <li>Offline Functionality: All calculators work offline</li>
+                            </ul>
+                            
+                            <div class="app-detail-meta">
+                                <span><strong>Category:</strong> Finance</span>
+                                <span><strong>Released:</strong> 2026</span>
+                                <span><strong>App Size:</strong> 44MB</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Development Roadmap -->
+        <section class="section">
+            <div class="container">
+                <div class="text-center mb-xl">
+                    <h2 style="font-family: var(--font-heading); font-size: var(--text-3xl); margin-bottom: var(--space-md);">Development Roadmap</h2>
+                    <p style="color: var(--color-text-secondary);">Exciting new applications and features coming soon.</p>
+                </div>
+
+                <div class="grid grid-cols-3">
+                    <div class="card">
+                        <h3 style="font-family: var(--font-heading); font-size: var(--text-xl); margin-bottom: var(--space-md); color: var(--color-primary);">Q2 2026</h3>
+                        <ul style="color: var(--color-text-secondary); line-height: 1.8;">
+                            <li>Productivity Suite Apps</li>
+                            <li>Health & Fitness Trackers</li>
+                            <li>Educational Tools</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3 style="font-family: var(--font-heading); font-size: var(--text-xl); margin-bottom: var(--space-md); color: var(--color-primary);">Q3 2026</h3>
+                        <ul style="color: var(--color-text-secondary); line-height: 1.8;">
+                            <li>Photography Apps</li>
+                            <li>Social Media Tools</li>
+                            <li>Travel Utilities</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3 style="font-family: var(--font-heading); font-size: var(--text-xl); margin-bottom: var(--space-md); color: var(--color-primary);">Q4 2026</h3>
+                        <ul style="color: var(--color-text-secondary); line-height: 1.8;">
+                            <li>AI-Powered Apps</li>
+                            <li>IoT Integration</li>
+                            <li>Advanced Analytics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Chakravarty House</h3>
+                    <p>Creating innovative Android experiences from Bengaluru, India. Passionate about mobile development and user-centric design.</p>
+                </div>
+                
+                <div class="footer-nav">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav-item"><a href="index.html" class="footer-nav-link">Home</a></li>
+                        <li class="footer-nav-item"><a href="apps.html" class="footer-nav-link">All Apps</a></li>
+                        <li class="footer-nav-item"><a href="about.html" class="footer-nav-link">About</a></li>
+                        <li class="footer-nav-item"><a href="privacy-policy.html" class="footer-nav-link">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Chakravarty House. All rights reserved. | Developed by Payel Chakravarty</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+# Appodeal
+appodeal.com, 254809, DIRECT
+
+# BidMachine
+bidmachine.io,1,DIRECT
+
+bidmachine.io,466,DIRECT
+
+# Replace the Publisher_ID below with your Admob Publisher ID
+google.com, pub-2058040573961952, DIRECT, f08c47fec0942fa0
+
+# Replace the Business_ID below with your Meta Business ID
+facebook.com,Business_ID,RESELLER,c3e20eee3f780d68
