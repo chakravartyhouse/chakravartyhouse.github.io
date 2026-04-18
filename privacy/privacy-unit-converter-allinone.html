@@ -1,38 +1,223 @@
-# Privacy Policy — Unit Converter Pro - All in One
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Unit Converter Pro - All in One</title>
+  <meta name="description" content="Privacy Policy for Unit Converter Pro - All in One by Payel Chakravarty." />
+  <style>
+    :root {
+      --bg: #f6f8fc;
+      --surface: #ffffff;
+      --text: #182132;
+      --muted: #607089;
+      --primary: #2f5bff;
+      --border: #dbe3f0;
+      --success: #0f8a6b;
+      --max: 900px;
+    }
 
-**Last updated: April 2026**
-**Developer: Payel Chakravarty**
-**Contact: spiceland21@gmail.com**
+    * { box-sizing: border-box; }
 
-## Data We Collect
-Unit Converter Pro does **not** collect, transmit, or share any 
-personal information. All data (conversion history, settings, 
-preferences) is stored **locally on your device only** in an 
-encrypted SQLite database at:
-`%LOCALAPPDATA%\UnitConverterPro\app.db`
+    body {
+      margin: 0;
+      font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+      background: linear-gradient(180deg, #f8fbff 0%, #f3f6fd 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
 
-This data never leaves your device and is never sent to any server.
+    .wrap {
+      width: min(var(--max), calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 60px;
+    }
 
-## Crash Logs
-The app writes a local crash log at:
-`%LOCALAPPDATA%\UnitConverterPro\crash.log`
-This file stays on your device and is never transmitted.
+    .topbar {
+      margin-bottom: 20px;
+    }
 
-## Ads (Future Update)
-A future version of this app may display advertisements served 
-by Microsoft pubCenter. Microsoft's privacy policy for advertising 
-applies: https://privacy.microsoft.com/en-us/privacystatement
-You can opt out of interest-based ads via:
-Windows Settings → Privacy & Security → General → 
-"Let apps show me personalized ads"
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--primary);
+      font-weight: 700;
+      text-decoration: none;
+    }
 
-## In-App Purchases (Future Update)
-Purchases are processed entirely by Microsoft Store. 
-We do not receive or store any payment information.
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 16px 40px rgba(16, 32, 70, 0.08);
+    }
 
-## Children
-This app is rated Everyone (3+) and does not knowingly 
-collect data from children under 13.
+    .badge {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: #eef3ff;
+      color: var(--primary);
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 14px;
+    }
 
-## Contact
-For questions: spiceland21@gmail.com
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.08;
+      letter-spacing: -0.02em;
+    }
+
+    .lead {
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    .notice {
+      background: #f2fcf8;
+      border: 1px solid #cfeee4;
+      color: #166851;
+      border-radius: 18px;
+      padding: 14px 16px;
+      margin: 20px 0 10px;
+    }
+
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin: 22px 0 8px;
+    }
+
+    .meta-box {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 16px;
+      background: #fbfcff;
+    }
+
+    .meta-box strong {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    h2 {
+      margin-top: 28px;
+      margin-bottom: 8px;
+      font-size: 1.3rem;
+    }
+
+    ul {
+      margin: 10px 0 0 20px;
+      padding: 0;
+    }
+
+    li { margin: 8px 0; }
+
+    p { margin: 10px 0; }
+
+    .footer-note {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+    }
+
+    a { color: var(--primary); }
+
+    @media (max-width: 720px) {
+      .meta { grid-template-columns: 1fr; }
+      .card { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <a class="back-link" href="https://chakravartyhouse.github.io/" target="_blank" rel="noopener noreferrer">← Back to home</a>
+    </div>
+
+    <main class="card">
+      <span class="badge">Privacy Policy</span>
+      <h1>Unit Converter Pro - All in One</h1>
+      <p class="lead">
+        This Privacy Policy explains how Unit Converter Pro - All in One handles information when you use the app.
+      </p>
+
+      <div class="notice">
+        The app is not yet live on the Microsoft Store. This privacy page is published in advance to support future release and transparency.
+      </div>
+
+      <div class="meta" aria-label="Policy summary">
+        <div class="meta-box">
+          <strong>Developer</strong>
+          Payel Chakravarty
+        </div>
+        <div class="meta-box">
+          <strong>Last updated</strong>
+          April 18, 2026
+        </div>
+      </div>
+
+      <h2>Overview</h2>
+      <p>
+        Unit Converter Pro - All in One is designed as a utility app for unit conversions and related calculation workflows. The app is intended to be simple, useful, and respectful of user privacy.
+      </p>
+
+      <h2>Information collected</h2>
+      <p>
+        The app is designed to work without requiring account creation or personal profile setup.
+      </p>
+      <ul>
+        <li>No name, email address, phone number, or payment information is required to use the core features.</li>
+        <li>No conversion values that you enter are intended to be collected as personal data.</li>
+        <li>No personal documents, contacts, photos, or messages are accessed by the app for normal operation.</li>
+      </ul>
+
+      <h2>How information is used</h2>
+      <p>
+        If limited technical data is ever processed for app stability, security, or error diagnosis, it will only be used to maintain and improve the app experience. The app is not intended to use personal information for advertising or unrelated profiling.
+      </p>
+
+      <h2>Offline use</h2>
+      <p>
+        Core conversion features are intended to be available without requiring you to submit personal information. Where possible, the app experience is designed to remain useful even without continuous online interaction.
+      </p>
+
+      <h2>Third-party services</h2>
+      <p>
+        If future versions of the app use Microsoft Store infrastructure, crash reporting, analytics, or similar platform services, those services may process limited technical information under their own terms and privacy policies. This page may be updated when such integrations are introduced.
+      </p>
+
+      <h2>Data sharing</h2>
+      <p>
+        Personal information is not intended to be sold to third parties. Any data processing, if introduced in future builds, would be limited to operating, securing, or improving the app, or to meeting legal requirements.
+      </p>
+
+      <h2>Children's privacy</h2>
+      <p>
+        The app is not specifically directed toward children under the age required by applicable law to provide consent on their own. If you believe personal information from a child has been provided inappropriately, please contact the developer to request review or deletion.
+      </p>
+
+      <h2>Policy changes</h2>
+      <p>
+        This Privacy Policy may be updated from time to time to reflect app changes, legal requirements, or store-related updates. The latest version will always be published on this page.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        For privacy-related questions about Unit Converter Pro - All in One, use the contact details or official links published on the Chakravarty House website.
+      </p>
+
+      <div class="footer-note">
+        By using the app after release, you acknowledge this Privacy Policy as applicable to the then-current version of Unit Converter Pro - All in One.
+      </div>
+    </main>
+  </div>
+</body>
+</html>
